@@ -1,0 +1,44 @@
+{% extends "staff_base.html" %}
+{% block content %}
+
+<head>
+    <title>StaffIssues</title>
+</head>
+<body>
+    <h1 style="color:rgba(68,73,79,1);">Reported Low Priority Issues</h1>
+	<svg class="Line_7" viewBox="0 0 1110 2" preserveAspectRatio="none">
+			<path id="Line_7" d="M 0 0 L 1110 0">
+			</path>
+	</svg>
+	<br></br>
+    
+    <!-- <h1>Reported Issues</h1> -->
+    {% if not issues %}
+        <h2>There are no issues</h2>
+    {% else %}
+        <h2>Active issues:</h2>
+        {% for elem in issues %}
+            {%if elem.resolved == False%}
+                <p>Issue Number: {{elem.id}}</p>
+                <p>Type: {{elem.issue}}</p>
+                <p>Description: {{elem.description}}</p>
+                <p>Priority: {{elem.priority}}</p>
+                <button type= "button" class="btn btn-primary" onclick="window.location.href='/admin/issues/resolve_issue/{{elem.id}}'" style = "color: white">Resolve Issue</button>
+                <button type= "button" class="btn btn-primary" onclick="window.location.href='/escalate_issue/{{elem.id}}'" style = "color: white">Escalate Issue</button>
+                <br> </br>
+            {%endif%}
+        {% endfor %}
+        
+        <h2>Resolved issues:</h2>
+            {% for elem in issues %}
+                {%if elem.resolved == True%}
+                    <p>Issue Number: {{elem.id}}</p>
+                    <p>Type: {{elem.issue}}</p>
+                    <p>Description: {{elem.description}}</p>
+                    <br> </br>
+                {%endif%}
+            {% endfor %}
+    {%endif%}
+</body>
+
+{% endblock content %}

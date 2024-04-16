@@ -1,0 +1,29 @@
+{% extends "admin_base.html" %}
+{% block content %}
+
+<head>
+    <title>Booking History</title>
+</head>
+<body>
+    <h2>Order History:</h2>
+    {% for elem in orders %}
+        {% if elem.id not in active or elem.cancelled %}
+            <p style="font-weight: bold">Order Number: {{elem.id}}</p>
+            <p>Hours: {{elem.numHours}} Hr</p>
+            <p>Price: £{{elem.price}}</p>
+            <p>Date: {{elem.date.day}}-{{elem.date.month}}-{{elem.date.year}} {{elem.date.hour}}:{{elem.date.minute}}</p>
+            <p>Expiry Date: {{elem.expiry.day}}-{{elem.expiry.month}}-{{elem.expiry.year}} {{elem.expiry.hour}}:{{elem.expiry.minute}}</p>
+            <p>Email: {{elem.email}}</p>
+            {% if elem.cancelled %}
+            <b style="color: rgba(193,0,2,1.00)">Cancelled Order</b>
+            {% endif %}
+			<p>-------------------------</p>
+        {% endif %}
+    {% endfor %}
+    
+
+
+
+</body>
+
+{% endblock content %}

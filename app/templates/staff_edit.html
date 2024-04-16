@@ -1,0 +1,32 @@
+{% extends "admin_base.html" %}
+{% block content %}
+
+<head>
+    <title>StaffEdit</title>
+</head>
+<body>
+    <h1 style="color:rgba(68,73,79,1);">Edit Scooters</h1>
+	<svg class="Line_7" viewBox="0 0 1110 2" preserveAspectRatio="none">
+			<path id="Line_7" d="M 0 0 L 1110 0">
+			</path>
+	</svg>
+	<br></br>
+
+    <h1>Edit Scooter configuration</h1>
+
+    <form method="POST" class="form">
+        {{ form.hidden_tag() }}
+        {{ form.location.label}}
+        {{ form.location}}
+        <br></br>
+
+        {{ form.in_use.label }}
+        {{ form.in_use }}
+
+        <br></br>
+        {{ form.submit }}
+    </form>
+
+</body>
+
+{% endblock content %}

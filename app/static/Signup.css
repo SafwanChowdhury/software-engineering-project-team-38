@@ -1,0 +1,712 @@
+@import url("https://use.typekit.net/sqj6cer.css");
+@import url(//db.onlinewebfonts.com/c/154ebfcef3ca74b92a56a5826ee85d74?family=Sharp+Sans+No1+Bold);
+@import url(//db.onlinewebfonts.com/c/4b20d1a4e849e41959b1c169dd9683c4?family=Sharp+Sans+No1+Light);
+@import url(//db.onlinewebfonts.com/c/59e7605c0e625de0522a548ac1a15d91?family=Sharp+Sans+No1+Medium+Italic);
+.mediaViewInfo {
+	--web-view-name: Website Sign up – 1;
+	--web-view-id: Website_Sign_up__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Website_Sign_up__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Website_Sign_up__1 {
+	position: absolute;
+	width: 100%;
+	height: 120%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Website Sign up – 1;
+	--web-view-id: Website_Sign_up__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_666 {
+	fill: rgba(157,157,157,1);
+}
+.Rectangle_666 {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+#Header {
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Header_-_Desktop {
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_n {
+	fill: url(#base_n);
+}
+.base_n {
+	overflow: visible;
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.container{
+	position:absolute;
+	overflow: visible;
+	width: 406px;
+	height: 100%;
+	left: calc(50% - 194.5px);
+	top: 0px;
+}
+#Group_6 {
+	position: absolute;
+	width: 92px;
+	height: 30px;
+	left: 36%;
+	top: 17px;
+	overflow: visible;
+}
+.btn_EScooter {
+	background: inherit;
+	border: none;
+	left: 18px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Sharp Sans No1 Medium Italic, Sans-Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+	cursor: pointer;
+}
+#scooter_white {
+	position: absolute;
+	width: 29px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_667 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_667 {
+	filter: drop-shadow(0px 3px 6px rgba(39, 39, 39, 0.471));
+	position: relative;
+	overflow: visible;
+	width: 406px;
+	height: 584px;
+	left: 0px;
+	top: 134px;
+}
+input[type=text], input[type=password]{
+	width: 100%;
+	box-sizing: border-box;
+	border: 0px solid #ccc;
+	border-radius:8px;
+	font-size: 10px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	background: inherit;
+	width: 298px;
+	padding: 12px 15px;
+	outline: none;
+}
+#Sign_Up {
+	left: 146px;
+	top: 163px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Group_1433 {
+	position: absolute;
+	width: 292px;
+	height: 34px;
+	left: 48px;
+	top: 609px;
+	overflow: visible;
+}
+#Group_1442 {
+	position: absolute;
+	width: 292px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_1437 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 48px;
+	top: 461px;
+	overflow: visible;
+}
+#Group_1435 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_1431 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1483 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1483 {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 42px;
+	left: 0px;
+	top: 18px;
+}
+#Rectangle_14832 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14832 {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 42px;
+	left: 0px;
+	top: 75px;
+}
+#Enter_a_password {
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+.Password {
+	opacity: 0.5;
+	left: 0px;
+	top: 18px;
+	height: 41px;
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+.Password2 {
+	opacity: 0.5;
+	left: 0px;
+	top: 75px;
+	height: 41px;
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+#Icon_ionic-ios-lock {
+	opacity: 0.6;
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-ios-lock {
+	overflow: visible;
+	position: absolute;
+	width: 9.375px;
+	height: 12.188px;
+	left: 273px;
+	top: 33px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_1436 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 48px;
+	top: 386px;
+	overflow: visible;
+}
+#Group_1432 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1480 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1480 {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 42px;
+	left: 0px;
+	top: 18px;
+}
+#Enter_your_email {
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+.Email {
+	opacity: 0.5;
+	left: 0px;
+	top: 18px;
+	position: absolute;
+	overflow: hidden;
+	width: 272px;
+	height: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+#Icon_ionic-ios-mail {
+	opacity: 0.6;
+	position: absolute;
+	width: 12.188px;
+	height: 8.438px;
+	left: 271.594px;
+	top: 35.781px;
+	overflow: visible;
+}
+#Path_210 {
+	fill: rgba(0,0,0,1);
+}
+.Path_210 {
+	overflow: visible;
+	position: absolute;
+	width: 12.188px;
+	height: 7.421px;
+	left: 0px;
+	top: 1.016px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_211 {
+	fill: rgba(0,0,0,1);
+}
+.Path_211 {
+	overflow: visible;
+	position: absolute;
+	width: 11.481px;
+	height: 5.364px;
+	left: 0.354px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_1439 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 48px;
+	top: 311px;
+	overflow: visible;
+}
+#Group_1438 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_1432_be {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1480_bf {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1480_bf {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 42px;
+	left: 0px;
+	top: 18px;
+}
+#Enter_your_phone_number {
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Phone_Number {
+	opacity: 0.5;
+	left: 0px;
+	top: 17.5px;
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+	padding-left: 55px
+}
+#n_4 {
+	left: 18px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 22px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+#Icon_feather-smartphone {
+	opacity: 0.6;
+	position: absolute;
+	width: 8.75px;
+	height: 12.5px;
+	left: 272.125px;
+	top: 32.25px;
+	overflow: visible;
+}
+#Path_212 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1.25px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_212 {
+	overflow: visible;
+	position: absolute;
+	width: 10px;
+	height: 13.75px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_213 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1.25px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_213 {
+	overflow: visible;
+	position: absolute;
+	width: 1.25px;
+	height: 1.25px;
+	left: 4.375px;
+	top: 10px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 42px;
+	left: 47.5px;
+	top: 18px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Polygon_1 {
+	fill: rgba(112,112,112,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Polygon_1 {
+	overflow: visible;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	transform: translate(-554px, -337px) matrix(1,0,0,1,562,374) rotate(180deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Group_1440 {
+	position: absolute;
+	width: 135px;
+	height: 60px;
+	left: 48px;
+	top: 236px;
+	overflow: visible;
+}
+#Group_1432_bp {
+	position: absolute;
+	width: 135px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1480_bq {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1480_bq {
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	height: 42px;
+	left: 0px;
+	top: 18px;
+}
+#First_Name {
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	height: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+.First_Name_bs {
+	opacity: 0.5;
+	left: 0px;
+	top: 17.5px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	height: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+#Group_1441 {
+	position: absolute;
+	width: 135px;
+	height: 60px;
+	left: 205px;
+	top: 236px;
+	overflow: visible;
+}
+#Group_1432_bu {
+	position: absolute;
+	width: 135px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1480_bv {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1480_bv {
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	height: 42px;
+	left: 0px;
+	top: 18px;
+}
+#Last_Name {
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Last_Name_bx {
+	opacity: 0.5;
+	left: 0px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+.signup {
+	background-color: rgba(39,44,50,1);
+	width: 292px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+	border: 0px solid black;
+	border-width: 0px;
+	border-linejoin: miter;
+	border-linecap: butt;
+	border-miterlimit: 4;
+	shape-rendering: auto;
+	border-radius: 8px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+	cursor: pointer;
+}
+.error-message {
+	text-align: right;
+	color: red;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	padding-right: 10px;
+}

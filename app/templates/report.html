@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+
+  <head>
+    <title>Report Issue</title>
+  </head>
+  <body>
+    <h1>Report Issue</h1>
+
+    <div class="form-wrapper">
+      <form method="POST" class="form">
+        {{ form.hidden_tag() }}
+        
+        <fieldset class="form-field">
+            {{ form.issue.label(class = "form-label")}}
+            {{ form.issue}}
+        </fieldset>
+
+        <fieldset class="form-field">
+          {{ form.report.label(class = "form-label")}}
+          {{ form.report}}
+        </fieldset>
+
+        
+
+        {{ form.submit (class = "btn btn-primary") }}
+
+    
+      </form>
+    </div>
+  </body>
+
+
+{% endblock content %}

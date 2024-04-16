@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Report</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Website Report;
+		--web-view-id: Website_Report;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Website_Report;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Website_Report {
+		position: absolute;
+		width: 1400px;
+		height: 800px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Website Report;
+		--web-view-id: Website_Report;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_666 {
+		fill: rgba(157,157,157,1);
+	}
+	.Rectangle_666 {
+		position: absolute;
+		overflow: visible;
+		width: 1400px;
+		height: 800px;
+		left: 0px;
+		top: 0px;
+	}
+	#Header {
+		position: absolute;
+		width: 1400px;
+		height: 183.365px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Header_-_Desktop {
+		position: absolute;
+		width: 1400px;
+		height: 183.365px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#base_ {
+		fill: url(#base_);
+	}
+	.base_ {
+		overflow: visible;
+		position: absolute;
+		width: 1400px;
+		height: 183.365px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_6 {
+		position: absolute;
+		width: 92px;
+		height: 30px;
+		left: 654px;
+		top: 17px;
+		overflow: visible;
+	}
+	.btn_EScooter {
+		background: inherit;
+		border: none;
+		left: 18px;
+		top: 5px;
+		position: absolute;
+		overflow: visible;
+		width: 56px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Sharp Sans No1;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+		cursor: pointer;
+	}
+	#scooter_white {
+		position: absolute;
+		width: 29px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_1532 {
+		position: absolute;
+		width: 388px;
+		height: 566px;
+		left: 506px;
+		top: 134px;
+		overflow: visible;
+	}
+	#Rectangle_667 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_667 {
+		filter: drop-shadow(0px 3px 6px rgba(39, 39, 39, 0.471));
+		position: absolute;
+		overflow: visible;
+		width: 406px;
+		height: 584px;
+		left: 0px;
+		top: 0px;
+	}
+	#Report_an_Issue {
+		left: 99px;
+		top: 29px;
+		position: absolute;
+		overflow: visible;
+		width: 191px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#Report_an_issue_and_out_team_w {
+		left: 64px;
+		top: 77px;
+		position: absolute;
+		overflow: visible;
+		width: 261px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_1484 {
+		fill: transparent;
+	}
+	.Rectangle_1484 {
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		height: 18px;
+		left: 238px;
+		top: 334px;
+	}
+	#Group_1561 {
+		position: absolute;
+		width: 292px;
+		height: 380px;
+		left: 48px;
+		top: 135px;
+		overflow: visible;
+	}
+	#Group_1433 {
+		position: absolute;
+		width: 292px;
+		height: 34px;
+		left: 0px;
+		top: 346px;
+		overflow: visible;
+	}
+	.Rectangle_1482 {
+		position: absolute;
+		overflow: visible;
+		width: 292px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		outline: none;
+		border-radius: 8px;
+		font-size: 16px;
+		background-color: rgba(39,44,50,1);
+		white-space: nowrap;
+		text-align: center;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.2px;
+	}
+	#Group_1560 {
+		position: absolute;
+		width: 292px;
+		height: 266px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_1431 {
+		position: absolute;
+		width: 292px;
+		height: 156px;
+		left: 0px;
+		top: 110px;
+		overflow: visible;
+	}
+	#Rectangle_1483 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1483 {
+		position: absolute;
+		overflow: visible;
+		width: 292px;
+		height: 138px;
+		left: 0px;
+		top: 18px;
+		outline: none;
+		border-radius: 8px;
+		padding-left: 20px;
+		font-size: 16px;
+	}
+	#Describe_the_issue {
+		left: 8px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_1559 {
+		position: absolute;
+		width: 292px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_1483_bp {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1483_bp {
+		position: absolute;
+		overflow: visible;
+		width: 292px;
+		height: 42px;
+		left: 0px;
+		top: 18px;
+		outline: none;
+		border-radius: 8px;
+		padding-left: 20px;
+		font-size: 16px;
+	}
+	#Issue {
+		left: 8px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+</style>
+</head>
+<body>
+<div id="Website_Report">
+	<svg class="Rectangle_666">
+		<rect id="Rectangle_666" rx="0" ry="0" x="0" y="0" width="1400" height="800">
+		</rect>
+	</svg>
+	<div id="Header">
+		<div id="Header_-_Desktop" class="Header___Desktop">
+			<svg class="base_" viewBox="0 0 1400 183.365">
+				<linearGradient id="base_" spreadMethod="pad" x1="0.5" x2="0.5" y1="0" y2="1">
+					<stop offset="0" stop-color="#24292f" stop-opacity="1"></stop>
+					<stop offset="0.328" stop-color="#272c32" stop-opacity="0.953"></stop>
+					<stop offset="1" stop-color="#6c7074" stop-opacity="0"></stop>
+				</linearGradient>
+				<path id="base_" d="M 0 0 L 1400 0 L 1400 183.3653717041016 L 0 183.3653717041016 L 0 0 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="Group_6">
+			<div class="btn_EScooter">
+				<button class = "btn_EScooter" onclick="window.location.href='/'">EScooter</button>
+			</div>
+			<img id="scooter_white" src="\static\scooter_white.png" srcset="\static\scooter_white.png 1x, \static\scooter_white@2x.png 2x">
+				
+		</div>
+	</div>
+	<div id="Group_1532">
+		<svg class="Rectangle_667">
+			<rect id="Rectangle_667" rx="20" ry="20" x="0" y="0" width="388" height="566">
+			</rect>
+		</svg>
+		<div id="Report_an_Issue">
+			<span>Report an Issue</span>
+		</div>
+		<div id="Report_an_issue_and_out_team_w">
+			<span>Report an issue and out team will get back to you ASAP</span>
+		</div>
+		<form method="POST" class="form">
+			{{ form.hidden_tag() }}
+            <svg class="Rectangle_1484">
+                <rect id="Rectangle_1484" rx="0" ry="0" x="0" y="0" width="47" height="18">
+                </rect>
+            </svg>
+            <div id="Group_1561">
+                <div id="Group_1560">
+                    <div id="Group_1431">
+						{{ form.report (class="Rectangle_1483")}}
+                        <div id="Describe_the_issue">
+                            <span>Describe the issue</span>
+                        </div>
+                    </div>
+                    <div id="Group_1559">
+						{{ form.issue (class="Rectangle_1483_bp")}}
+                        <div id="Issue">
+                            <span>Issue</span>
+                        </div>
+                    </div>
+                </div>
+				<div id="Group_1433">
+                   <button type="submit" class="Rectangle_1482">Submit</button>
+           		 </div>
+            </div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

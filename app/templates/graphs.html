@@ -1,0 +1,72 @@
+{% extends "admin_base.html" %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <h3> Weekly income in the last 8 weeks </h3>
+    <!-- {% for week in weeks %}
+    {{ week }}
+    <br>
+    {% endfor %}
+    {% for sum in income %}
+    {{ sum }}
+    <br>
+    {% endfor %} -->
+    <canvas id="lineGraph" width="800" height="600"></canvas>
+    <script>
+        let graphWeeks = JSON.parse({{weeks | tojson }})
+        let graphIncome = JSON.parse({{income | tojson }})
+        var context = document.getElementById("lineGraph").getContext("2d")
+        var lineGraph = new Chart(context, {
+            type: "bar",
+            data: {
+                labels: graphWeeks,
+                datasets: [
+                    {
+                        label: "Weekly Income",
+                        data: graphIncome,
+                        fill: false,
+                        borderColor: "rgb(1, 1, 1)",
+                        lineTension: 0
+                    }
+                ]
+            },
+            options: {
+                responsive: false,
+                backgroundColor: "rgb(0, 100, 200)",
+                scales: {
+                    
+                    y: {
+                        ticks: {
+                            // Include a dollar sign in the ticks
+                            callback: function(value, index, ticks) {
+                                return "£" + value;
+                            }
+                        },
+                        title: {
+                            text: "Income",
+                            display: true
+                        }
+                    },
+                    x: {
+                        title: {
+                            text: "Week starting",
+                            display: true
+                        }
+                    }
+                    
+        }
+            }
+        });
+    </script>
+</body>
+    <a href="/admin/statistics/week" class="myButton">Week Breakdown</a>
+    <a href="/admin/statistics/rental_option" class="myButton">Rental Options Breakdown</a>
+</html>
+
+{% endblock %}

@@ -1,0 +1,1064 @@
+@import url("https://use.typekit.net/sqj6cer.css");
+@import url(//db.onlinewebfonts.com/c/154ebfcef3ca74b92a56a5826ee85d74?family=Sharp+Sans+No1+Bold);
+@import url(//db.onlinewebfonts.com/c/4b20d1a4e849e41959b1c169dd9683c4?family=Sharp+Sans+No1+Light);
+@import url(//db.onlinewebfonts.com/c/59e7605c0e625de0522a548ac1a15d91?family=Sharp+Sans+No1+Medium+Italic);
+.mediaViewInfo {
+	--web-view-name: Website Main;
+	--web-view-id: Website_Main;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Website_Main;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+.topnav{
+	position: absolute;
+	overflow: hidden;
+	width: 50%;
+	height: 100px;
+	left: 40%;
+	top: 26px;
+}
+.topnav-dashboard{
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100px;
+	left: 301px;
+	top: 25px;
+}
+@media screen and (max-width: 900px){
+	.topnav {display: none;}
+	.main {display: none;}
+}
+.Header {
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Header_-_Desktop {
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.sticky {
+	position: fixed;
+	top:0px;
+	width: 100%;
+}
+.content{
+	padding: 0px;
+}
+.sticky + .content {
+	padding-top: 0px
+}
+#base_r {
+	fill: url(#base_r);
+}
+.base_r {
+	overflow: visible;
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#HOME {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(204,204,204,1);
+	text-decoration: none;
+}
+#HOME:link{
+	color: rgba(204,204,204,1);
+}
+#HOME:visited{
+	color: rgba(204,204,204,1);
+}
+#HOME:hover{
+	opacity: 1;
+}
+#PRICING {
+	opacity: 0.7;
+	left: 137px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(204,204,204,1);
+	text-decoration: none;
+}
+#PRICING:link{
+	color: rgba(204,204,204,1);
+}
+#PRICING:visited{
+	color: rgba(204,204,204,1);
+}
+#PRICING:hover{
+	opacity: 1;
+}
+#CONTACT {
+	opacity: 0.7;
+	left: 205px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(204,204,204,1);
+	text-decoration: none;
+}
+#CONTACT:link{
+	color: rgba(204,204,204,1);
+}
+#CONTACT:visited{
+	color: rgba(204,204,204,1);
+}
+#CONTACT:hover{
+	opacity: 1;
+}
+#ABOUT_US {
+	opacity: 0.7;
+	left: 58px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(204,204,204,1);
+	text-decoration: none;
+}
+#ABOUT_US:link{
+	color: rgba(204,204,204,1);
+}
+#ABOUT_US:visited{
+	color: rgba(204,204,204,1);
+}
+#ABOUT_US:hover{
+	opacity: 1;
+}
+#MY_ACCOUNT{
+	opacity: 0.7;
+	left: 85%;
+	top: 0px;
+	position: absolute;
+	width: 68px;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -4.5px;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(204,204,204,1);
+	text-decoration: none;
+}
+#MY_ACCOUNT:link{
+	color: rgba(204,204,204,1);
+}
+#MY_ACCOUNT:visited{
+	color: rgba(204,204,204,1);
+}
+#MY_ACCOUNT:hover{
+	opacity: 1;
+}
+#DASHBOARD {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	cursor: pointer;
+	line-height: 20px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(204,204,204,1);
+	text-decoration: none;
+}
+#DASHBOARD:link{
+	color: rgba(204,204,204,1);
+}
+#DASHBOARD:visited{
+	color: rgba(204,204,204,1);
+}
+#DASHBOARD:hover{
+	opacity: 1;
+}
+#HELP {
+	opacity: 0.7;
+	right: 585px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(204,204,204,1);
+	text-decoration: none;
+}
+#HELP:link{
+	color: rgba(204,204,204,1);
+}
+#HELP:visited{
+	color: rgba(204,204,204,1);
+}
+#HELP:hover{
+	opacity: 1;
+}
+#BOOK_RIDE {
+	opacity: 0.7;
+	left: 142px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(204,204,204,1);
+	text-decoration: none;
+}
+#BOOK_RIDE:link{
+	color: rgba(204,204,204,1);
+}
+#BOOK_RIDE:visited{
+	color: rgba(204,204,204,1);
+}
+#BOOK_RIDE:hover{
+	opacity: 1;
+}
+#LOG_OUT {
+	opacity: 0.7;
+	right: 491px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	cursor: pointer;
+	line-height: 20px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(204,204,204,1);
+	text-decoration: none;
+}
+#LOG_OUT:link{
+	color: rgba(204,204,204,1);
+}
+#LOG_OUT:visited{
+	color: rgba(204,204,204,1);
+}
+#LOG_OUT:hover{
+	opacity: 1;
+}
+@media screen and (min-width: 900px){
+    #Group_6 {
+        position: absolute;
+        width: 92px;
+        height: 30px;
+        left: 130px;
+        top: 20px;
+        overflow: visible;
+    }
+}
+@media screen and (max-width: 900px){
+    #Group_6 {
+        position: absolute;
+        width: 92px;
+        height: 30px;
+        left: 40%;
+        top: 20px;
+        overflow: visible;
+    }
+}
+.btn_EScooter {
+	background: inherit;
+	border: none;
+	left: 18px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Sharp Sans No1 Medium Italic, Sans-Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+	cursor: pointer;
+}
+#scooter_white {
+	position: absolute;
+	width: 29px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_bs {
+	fill: rgba(147,147,147,1);
+}
+.base_bs {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+}
+.main {
+	position: absolute;
+	width: 272px;
+	height: 87px;
+	left: 15%;
+	top: 54px;
+	overflow: visible;
+}
+#Home {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#About {
+	left: 100px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Testimonials {
+	left: 200px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Pricing {
+	left: 0px;
+	top: 46px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Terms {
+	left: 100px;
+	top: 46px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Integrations {
+	left: 200px;
+	top: 46px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Contact {
+	left: 0px;
+	top: 69px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Guidelines {
+	left: 100px;
+	top: 69px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Careers {
+	left: 200px;
+	top: 69px;
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Bookings {
+	left: 0px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 54px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Help {
+	left: 100px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 28px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#Advertise {
+	left: 200px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(203,208,211,1);
+	letter-spacing: 0.5px;
+	text-decoration: none
+}
+#field {
+	opacity: 0.35;
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.field {
+	overflow: visible;
+	position: absolute;
+	width: 260px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#send {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 224px;
+	top: 12px;
+	overflow: visible;
+}
+#send_b {
+	fill: rgba(255,255,255,1);
+}
+.send_b {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Email {
+	opacity: 0.5;
+	left: 20px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	height: 22px;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#Stay_in_touch_for_latest_updat {
+	left: 60px;
+	top: 44px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 12px;
+	line-height: 20px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(203,208,211,1);
+}
+@media (min-width: 900px){
+    .subscribe {
+        position: absolute;
+        width: 260px;
+        height: 56px;
+        left: 50%;
+        top: 58px;
+        overflow: visible;
+    }
+	#Social {
+	position: absolute;
+	width: 160px;
+	height: 16.001px;
+	left: calc(100% - 355px);
+	top: 135px;
+	overflow: visible;
+	}
+}
+@media (max-width: 900px){
+	.subscribe {
+	position: absolute;
+	width: 260px;
+	height: 56px;
+	left: 25%;
+	top: 58px;
+	overflow: visible;
+	}
+	#Social {
+	position: absolute;
+	width: 160px;
+	height: 16.001px;
+	left: calc(25% + 50px);
+	top: 135px;
+	overflow: visible;
+	}
+}
+
+#web {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 144px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_4 {
+	fill: rgba(255,255,255,1);
+}
+.Path_4 {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#instagram {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_3 {
+	fill: rgba(255,255,255,1);
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#twitter {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 48px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_393 {
+	fill: transparent;
+}
+.Rectangle_393 {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+}
+#Path_2 {
+	fill: rgba(255,255,255,1);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 12.978px;
+	left: 0px;
+	top: 1.999px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#facebook {
+	position: absolute;
+	width: 16px;
+	height: 16.001px;
+	left: 96px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_392 {
+	fill: transparent;
+}
+.Rectangle_392 {
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+}
+#Path_1 {
+	fill: rgba(255,255,255,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 8.355px;
+	height: 16px;
+	left: 4px;
+	top: 0.001px;
+	transform: matrix(1,0,0,1,0,0);
+}
+/*For Mobile*/
+.mobile_menu{
+	position: absolute;
+    width: 11px;
+    height: 879px;
+    right: 0px;
+    top: 0px;
+    overflow: visible;
+}
+@media (min-width: 900px){
+	.mobile_menu{
+		display: none;
+	}
+}
+#Icon_ionic-ios-menu {
+    position: absolute;
+    width: 31.52px;
+    height: 18.386px;
+    right: 60px;
+    top: 26px;
+    overflow: visible;
+	cursor: pointer;
+	background-color: inherit;
+}
+.Component_34___5 {
+	display: none;
+    position: absolute;
+    width: 361px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_1486_cr {
+    fill: url(#Rectangle_1486_cr);
+}
+.Rectangle_1486_cr {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+#Path_1089 {
+    fill: rgba(255,255,255,1);
+}
+.Path_1089 {
+    overflow: visible;
+    position: absolute;
+    width: 31.52px;
+    height: 2.627px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_1090 {
+    fill: rgba(255,255,255,1);
+}
+.Path_1090 {
+    overflow: visible;
+    position: absolute;
+    width: 31.52px;
+    height: 2.627px;
+    left: 0px;
+    top: 7.88px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_1091 {
+    fill: rgba(255,255,255,1);
+}
+.Path_1091 {
+    overflow: visible;
+    position: absolute;
+    width: 31.52px;
+    height: 2.627px;
+    left: 0px;
+    top: 15.76px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.container_menu{
+	left: 151px;
+    top: 145px;
+    position: absolute;
+    overflow: visible;
+	width: 100%;
+	height: 100%;
+}
+.container_menu2{
+	display: none;
+	left: 151px;
+    top: 145px;
+    position: absolute;
+    overflow: visible;
+	width: 100%;
+	height: 100%;
+}
+#Home_cz {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: halyard-display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.1px;
+	background-color: inherit;
+	cursor: pointer;
+}
+#About_Us_c {
+    left: -20px;
+    top: 65px;
+    position: absolute;
+    overflow: visible;
+    width: 115px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: halyard-display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.1px;
+	background-color: inherit;
+	cursor: pointer;
+}
+#Pricing_c {
+    left: -5px;
+    top: 125px;
+    position: absolute;
+    overflow: visible;
+    width: 85px;
+	height: 40px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: halyard-display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.1px;
+	background-color: inherit;
+	cursor: pointer;
+}
+#Contact_c {
+    left: -12px;
+    top: 195px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: halyard-display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.1px;
+	background-color: inherit;
+	cursor: pointer;
+}
+#Line_4_c {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_4_c {
+    overflow: visible;
+    position: absolute;
+    width: 114px;
+    height: 1px;
+    left: -20px;
+    top: 56px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_5_c {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_5_c {
+    overflow: visible;
+    position: absolute;
+    width: 114px;
+    height: 1px;
+    left: -20px;
+    top: 121px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_6_c {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_6_c {
+    overflow: visible;
+    position: absolute;
+    width: 114px;
+    height: 1px;
+    left: -20px;
+    top: 186px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#My_Account_c {
+    left: -36px;
+    top: 400px;
+    position: absolute;
+    overflow: visible;
+    width: 147px;
+	height: 40px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: halyard-display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.1px;
+	background-color: inherit;
+	cursor: pointer;
+}

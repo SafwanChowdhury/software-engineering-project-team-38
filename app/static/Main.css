@@ -1,0 +1,1078 @@
+@import url("https://use.typekit.net/sqj6cer.css");
+@import url(//db.onlinewebfonts.com/c/154ebfcef3ca74b92a56a5826ee85d74?family=Sharp+Sans+No1+Bold);
+@import url(//db.onlinewebfonts.com/c/4b20d1a4e849e41959b1c169dd9683c4?family=Sharp+Sans+No1+Light);
+@import url(//db.onlinewebfonts.com/c/59e7605c0e625de0522a548ac1a15d91?family=Sharp+Sans+No1+Medium+Italic);
+.mediaViewInfo {
+	--web-view-name: Website Main;
+	--web-view-id: Website_Main;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Website_Main;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+#location{
+	display: none;
+}
+.Footer___Desktop{
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	top: 1635px;
+	overflow: visible;
+}
+#Footer_-_Desktop {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	top: 1635px;
+	overflow: visible;
+}
+#scooter_white_co {
+	position: absolute;
+	width: 29px;
+	height: 30px;
+	left: 6%;
+	top: 1713px;
+	overflow: visible;
+}
+#Website_Main {
+	position: absolute;
+	width: 100%;
+	height: 1833px;
+	background-color: rgba(255,255,255);
+	overflow: hidden;
+	--web-view-name: Website Main;
+	--web-view-id: Website_Main;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_664 {
+	fill: rgba(157,157,157,1);
+}
+.Rectangle_664 {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 800px;
+	left: 0px;
+	top: 852px;
+}
+#Front_Page {
+	position: absolute;
+	width: 100%;
+	height: 934px;
+	left: 0px;
+	top: -54px;
+	overflow: visible;
+}
+#Image_2 {
+	position: absolute;
+	width: 100%;
+	height: 934px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_11 {
+	opacity: 0.4;
+	fill: rgba(36,41,47,1);
+}
+.Path_11 {
+	overflow: visible;
+	position: absolute;
+	width: 100%;
+	height: 880px;
+	left: 0px;
+	top: 54px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-search {
+	fill: rgba(93,93,93,1);
+}
+.Icon_awesome-search {
+	overflow: visible;
+	position: absolute;
+	width: 17.343px;
+	height: 17.346px;
+	left: 0px;
+	top: 60.687px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 298px;
+	height: 1px;
+	left: 0.447px;
+	top: 84.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Book_Your_Ride {
+	left: 81px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 41px;
+	line-height: 32px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.1px;
+}
+
+input[type=text]{
+	width: 100%;
+	box-sizing: border-box;
+	border: 0px solid #ccc;
+	border-radius:4px;
+	font-size: 20px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	background: inherit;
+	width: 298px;
+	padding-left: 30px;
+	outline: none;
+}
+#Find_a_pick-up_point {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.5px;
+}
+#Confirm_Booking {
+	left: 882px;
+	top: 1348px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.1px;
+}
+#Icon_ionic-ios-pin {
+	fill: rgba(19,88,90,1);
+}
+.Icon_ionic-ios-pin {
+	filter: drop-shadow(0px 3px 6px rgba(255, 0, 0, 0.251));
+	overflow: visible;
+	position: absolute;
+	width: 38.25px;
+	height: 47.25px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pick-Up {
+	filter: drop-shadow(0px 3px 6px rgba(93, 93, 93, 1));
+	left: 28px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(55,55,55,1);
+	letter-spacing: 0.2px;
+}
+#Input {
+	position: absolute;
+	width: 111px;
+	height: 48px;
+	left: 283px;
+	top: 1163px;
+	overflow: visible;
+}
+#Path_209 {
+	fill: transparent;
+	stroke: rgba(93,93,93,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_209 {
+	overflow: visible;
+	position: absolute;
+	width: 111px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Arrow_Small_Down__1 {
+	position: absolute;
+	width: 9.4px;
+	height: 6.1px;
+	left: 98px;
+	top: 21.95px;
+	overflow: visible;
+}
+#Path_36 {
+	fill: rgba(93,93,93,1);
+}
+.Path_36 {
+	overflow: visible;
+	position: absolute;
+	width: 9.4px;
+	height: 6.1px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.container_4{
+	left: 203px;
+	top: 249px;
+	position: absolute;
+	overflow: visible;
+	width: 269px;
+}
+#Reimagine_Mobility {
+	left: 39px;
+	top: 82px;
+	position: absolute;
+	overflow: visible;
+	width: 383px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Sharp Sans No1 Light, Sans-Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#EScooter_One {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 383px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Sharp Sans No1 Bold, Sans-Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+#Group_16 {
+	position: absolute;
+	width: 226px;
+	height: 55px;
+	left: 60px;
+	top: 234px;
+	overflow: visible;
+}
+.btn_Rectangle_665 {
+	position: absolute;
+	overflow: visible;
+	width: 226px;
+	height: 55px;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(38,43,49,1);
+	border: 1px solid black;
+	border-color: rgba(112,112,112,1);
+	border-width: 1px;
+	border-linejoin: miter;
+	border-linecap: butt;
+	border-miterlimit: 4;
+	shape-rendering: auto;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.btn_Book_Now {
+	background-color: inherit;
+	left: 50px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+	cursor: pointer;
+}
+@media screen and (max-width: 900px){
+	.container_4{left: calc(50% - 187px)}
+}
+
+#Group_1516 {
+	position: absolute;
+	width: 211px;
+	height: 32px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1482 {
+	position: absolute;
+	overflow: visible;
+	width: 211px;
+	height: 32px;
+	left: 0px;
+	top: 0px;
+	outline: none;
+	border-radius: 4px;
+	font-size: 16px;		  
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+	background-color: rgba(39,44,50,1);
+	cursor: pointer;
+}
+.container_1537{
+	position: absolute;
+	width: 1450px;
+	height: 838px;
+	left: calc(50% - 725.5px);
+	top: 535px;
+	overflow: visible;
+}
+.container_1536{
+	position: absolute;
+	width: 1450px;
+	height: 838px;
+	left: calc(50% - 725.5px);
+	top: 535px;
+	overflow: visible;
+}
+#Group_1537 {
+	position: absolute;
+	width: 100%;
+	height: 838px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_1558 {
+	position: absolute;
+	width: 1450px;
+	height: 838px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_1 {
+	position: absolute;
+	width: 1450px;
+	height: 838px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_1547 {
+	position: absolute;
+
+	width: 99.095px;
+	height: 37.707px;
+	left: 749px;
+	top: 485.519px;
+	overflow: visible;
+}
+#Icon_ionic-ios-pin {
+	fill: rgba(19,88,90,1);
+}
+.Icon_ionic-ios-pin {
+	filter: drop-shadow(0px 3px 6px rgba(255, 0, 0, 0.251));
+	overflow: visible;
+	position: absolute;
+	width: 44.104px;
+	height: 55.707px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pick-Up {
+	filter: drop-shadow(0px 3px 6px rgba(93, 93, 93, 0.8));
+	left: 45.095px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(55,55,55,1);
+	letter-spacing: 0.2px;
+}
+#Group_1550 {
+	position: absolute;
+	width: 99.095px;
+	height: 37.707px;
+	left: 625.905px;
+	top: 716.519px;
+	overflow: visible;
+}
+#Icon_ionic-ios-pin_ba {
+	fill: rgba(19,88,90,1);
+}
+.Icon_ionic-ios-pin_ba {
+	filter: drop-shadow(0px 3px 6px rgba(255, 0, 0, 0.251));
+	overflow: visible;
+	position: absolute;
+	width: 44.104px;
+	height: 55.707px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pick-Up_bb {
+	filter: drop-shadow(0px 3px 6px rgba(93, 93, 93, 0.8));
+	left: 45.095px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(55,55,55,1);
+	letter-spacing: 0.2px;
+}
+#Group_1551 {
+	position: absolute;
+	width: 99.095px;
+	height: 37.707px;
+	left: 533.409px;
+	top: 473.519px;
+	overflow: visible;
+}
+#Icon_ionic-ios-pin_bd {
+	fill: rgba(19,88,90,1);
+}
+.Icon_ionic-ios-pin_bd {
+	filter: drop-shadow(0px 3px 6px rgba(255, 0, 0, 0.251));
+	overflow: visible;
+	position: absolute;
+	width: 44.104px;
+	height: 55.707px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pick-Up_be {
+	filter: drop-shadow(0px 3px 6px rgba(93, 93, 93, 0.8));
+	left: 45.095px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(55,55,55,1);
+	letter-spacing: 0.2px;
+}
+#Group_1552 {
+	position: absolute;
+	width: 99.095px;
+	height: 37.707px;
+	left: 541px;
+	top: 381.293px;
+	overflow: visible;
+}
+#Icon_ionic-ios-pin_bg {
+	fill: rgba(19,88,90,1);
+}
+.Icon_ionic-ios-pin_bg {
+	filter: drop-shadow(0px 3px 6px rgba(255, 0, 0, 0.251));
+	overflow: visible;
+	position: absolute;
+	width: 44.104px;
+	height: 55.707px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pick-Up_bh {
+	filter: drop-shadow(0px 3px 6px rgba(93, 93, 93, 0.8));
+	left: 45.095px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(55,55,55,1);
+	letter-spacing: 0.2px;
+}
+#Group_1562 {
+	position: absolute;
+	width: 99.095px;
+	height: 37.707px;
+	left: 749px;
+	top: 630.519px;
+	overflow: visible;
+}
+#Icon_ionic-ios-pin_bk {
+	fill: rgba(19,88,90,1);
+}
+.Icon_ionic-ios-pin_bk {
+	filter: drop-shadow(0px 3px 6px rgba(255, 0, 0, 0.251));
+	overflow: visible;
+	position: absolute;
+	width: 44.104px;
+	height: 55.707px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pick-Up_bl {
+	filter: drop-shadow(0px 3px 6px rgba(93, 93, 93, 0.8));
+	left: 45.095px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(55,55,55,1);
+	letter-spacing: 0.2px;
+}
+#Front_Page {
+	position: absolute;
+	width: 100%;
+	height: 934px;
+	left: 0px;
+	top: -54px;
+	overflow: visible;
+}
+#Image_2 {
+	position: absolute;
+	width: 100%;
+	height: 934px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_11 {
+	opacity: 0.4;
+	fill: rgba(36,41,47,1);
+}
+.Path_11 {
+	overflow: visible;
+	position: absolute;
+	width: 100%;
+	height: 880px;
+	left: 0px;
+	top: 54px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_1489 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_1489 {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 309px;
+	left: 0px;
+	top: 1326px;
+}
+.container{
+	margin: auto;
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 309px;
+	top: 1326px;
+}
+.container_1554{
+	position: absolute;
+	overflow: visible;
+	width: 500px;
+	height: 300px;
+	left: calc(20% - 130px);
+	top: 0px;
+}
+#Book_Your_Ride {
+	left: 28px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 41px;
+	line-height: 32px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.1px;
+}
+#Group_1554 {
+	position: absolute;
+	width: 298.5px;
+	height: 30.5px;
+	left: 0px;
+	top: 124px;
+	overflow: visible;
+}
+#Icon_awesome-search {
+	fill: rgba(93,93,93,1);
+}
+.Icon_awesome-search {
+	overflow: visible;
+	position: absolute;
+	width: 17.238px;
+	height: 17.239px;
+	left: 0px;
+	top: 5.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Find_a_pick-up_point {
+	left: 28px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.5px;
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+
+
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 298px;
+	height: 1px;
+	left: 0.5px;
+	top: 33px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.container_3{
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 500px;
+	right: calc(20% - 250px);
+	top: 0px;
+}
+.Confirm_Booking {
+	left: 0px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.1px;
+
+}
+#Group_1557 {
+	display: none;
+	position: absolute;
+	width: 211px;
+	height: 32px;
+	left: 0px;
+	top: 205px;
+	overflow: visible;
+}
+#Group_1516 {
+	position: absolute;
+	width: 211px;
+	height: 32px;
+	left: -2px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1482 {
+	fill: rgba(39,44,50,1);
+}
+.Rectangle_1482 {
+	position: absolute;
+	overflow: visible;
+	width: 211px;
+	height: 32px;
+	left: 0px;
+	top: 0px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;				 				   
+	outline: none;
+	border-radius: 4px;
+}
+.n__Hours {
+	left: 36px;
+	top: 127px;
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	height: 48px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(93,93,93,1);
+	border: solid;
+	border-color: rgba(112,112,112,1);
+	border-width: 1px;
+	outline: none;
+	border-radius: 3px;
+}
+.container_2{
+	position: absolute;
+	overflow: visible;
+	width: 200px;
+	height: 200px;
+	left: calc(50% - 108px);
+	top: 0px;
+}
+.Availability {
+	left: 0px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 41px;
+	line-height: 32px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.1px;
+}
+#Scooters_Available__1 {
+	display: none;
+	left: 27px;
+	top: 127px;
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.5px;
+}
+#Scooters_Available__0 {
+	display: none;
+	left: 28px;
+	top: 127px;
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.5px;
+}
+#Input {
+	position: absolute;
+	width: 111px;
+	height: 48px;
+	left: 560px;
+	top: 197px;
+	overflow: visible;
+}
+#Path_209 {
+	fill: transparent;
+	stroke: rgba(93,93,93,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_209 {
+	overflow: visible;
+	position: absolute;
+	width: 111px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+
+#Arrow_Small_Down__1 {
+	position: absolute;
+	width: 9px;
+	height: 6px;
+	left: 98px;
+	top: 22px;
+	overflow: visible;
+}
+#Path_36 {
+	fill: rgba(93,93,93,1);
+}
+.Path_36 {
+	overflow: visible;
+	position: absolute;
+	width: 9.4px;
+	height: 6.1px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Total_Price__5 {
+	left: 1023px;
+	top: 127px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.5px;
+}
+.show {display: block;}
+
+@media screen and (max-width: 900px){
+	.container_1554 {
+		left: calc(50% - 150px);
+		top: -40px;
+		height: 1px;
+	}
+	.container_2{
+		left: calc(50% - 120px);
+		top: 15px;
+		height: 10px;
+	}
+	.Availability{
+		top: -30px;
+		display: none;
+	}
+	.container_3{
+		left: calc(50% - 100px);
+		top: 50px;
+		height: 10px;
+	}
+	.Confirm_Booking{
+		top: -30px;
+		display: none;
+	}
+}
+
+/* External code - select menu css from https://www.w3schools.com/howto/howto_custom_select.asp */
+/* The container must be positioned relative: */
+.custom-select {
+  	width: 298px;
+	height: 40px;
+	left: 5px;
+	top: -12px;
+	padding-left: 23px;
+	background-color: inherit;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	overflow: visible;
+	width: 282px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(93,93,93,1);
+	letter-spacing: 0.5px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: inherit;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 23px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: rgba(93,93,93,1) transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent rgba(93,93,93,1) transparent;
+  top: 15px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: rgba(93,93,93,1);
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  left: -4px;
+  top: 47px;
+  min-width: 298px;
+  overflow: auto;
+  text-align: center;
+  font-family: halyard-display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}

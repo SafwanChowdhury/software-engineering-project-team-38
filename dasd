@@ -1,0 +1,74 @@
+[33mcommit bb7510b76c384454f9284023b7fc550aa87a0136[m[33m ([m[1;36mHEAD -> [m[1;32mSprint-1[m[33m, [m[1;31morigin/Sprint-1[m[33m)[m
+Author: Kevin Braszkiewicz <ed19km2b@leeds.ac.uk>
+Date:   Tue Feb 22 15:05:11 2022 +0000
+
+    added model and tables code
+
+[33mcommit c4a84772299d30ff3db4216f7747a469d86f49f5[m
+Author: Kevin Braszkiewicz <ed19km2b@leeds.ac.uk>
+Date:   Tue Feb 22 14:59:14 2022 +0000
+
+    added more tables to database. PP KB KC
+
+[33mcommit 71796d8ce2d8d7fe14f6833c678f04f80682bf22[m
+Author: Maverick <sc20ml@leeds.ac.uk>
+Date:   Tue Feb 22 14:37:52 2022 +0000
+
+    Allow custom titles on pages
+
+[33mcommit 3a380e77e54eba4e7bbcc15d6bee06fe044d58bd[m
+Author: Safwan Chowdhury <ed18src@leeds.ac.uk>
+Date:   Mon Feb 21 22:06:01 2022 +0000
+
+    Upload New File
+
+[33mcommit decb73ef935060403e993b86704de46c0d7469ec[m
+Author: Safwan Chowdhury <ed18src@leeds.ac.uk>
+Date:   Mon Feb 21 22:05:37 2022 +0000
+
+    website images
+
+[33mcommit de560d2353cb43d0ea22a0c328c9870cb9433f1f[m
+Author: Tamir Cohen <sc20tc@leeds.ac.uk>
+Date:   Mon Feb 21 19:14:04 2022 +0000
+
+    Added routes for login, register and logout. Set up initial database and models. PP: TC, KB, AZ.
+
+[33mcommit bcf6b56892676b58411cba8a068fab49752ba535[m
+Author: Adam Zbikowski <sc20aaz@leeds.ac.uk>
+Date:   Sun Feb 20 23:29:56 2022 +0000
+
+    adding html templates for login and registration pages
+    linked bootstrap for css
+
+[33mcommit 7158486d33d3dcb3129e9a4eb0d5cddc59a1e297[m
+Author: Adam Zbikowski <sc20aaz@leeds.ac.uk>
+Date:   Sun Feb 20 22:02:10 2022 +0000
+
+    changed base template
+    now links to login and registration pages
+
+[33mcommit 2b47e87d4645c5e9213ebdc751475f92a4f942de[m
+Author: Adam Zbikowski <sc20aaz@leeds.ac.uk>
+Date:   Wed Feb 16 17:08:50 2022 +0000
+
+    added dummy app routes for additional pages,
+    created new branch for sprint 1
+
+[33mcommit 062dddef77e0cfc0eb80ba08a74c4ef36d49b98d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Tamir Cohen <sc20tc@leeds.ac.uk>
+Date:   Tue Feb 15 15:28:16 2022 +0000
+
+    Test webpage setup to check if virtual environments are set up correctly
+
+[33mcommit 926860c107d1aa303b8afcf8ac90f3d8f2aed2cf[m
+Author: Tamir Cohen <sc20tc@leeds.ac.uk>
+Date:   Mon Feb 14 19:00:28 2022 +0000
+
+    Initial commit setting up flask file structure for app
+
+[33mcommit 341ecd1a13cea18ed3a0a8c46c5df630916dfe36[m
+Author: Adam Zbikowski <sc20aaz@leeds.ac.uk>
+Date:   Mon Feb 14 16:59:14 2022 +0000
+
+    Initial commit

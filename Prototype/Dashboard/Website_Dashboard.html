@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Dashboard</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Website Dashboard;
+		--web-view-id: Website_Dashboard;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Website_Dashboard;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Website_Dashboard {
+		position: absolute;
+		width: 1400px;
+		height: 799px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Website Dashboard;
+		--web-view-id: Website_Dashboard;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Path_1092 {
+		fill: rgba(205,205,205,1);
+	}
+	.Path_1092 {
+		overflow: visible;
+		position: absolute;
+		width: 1400px;
+		height: 799px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Header {
+		position: absolute;
+		width: 1400px;
+		height: 183.365px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_1541 {
+		position: absolute;
+		width: 1400px;
+		height: 183.365px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Header_-_Desktop {
+		position: absolute;
+		width: 1400px;
+		height: 183.365px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#base_ {
+		fill: url(#base_);
+	}
+	.base_ {
+		overflow: visible;
+		position: absolute;
+		width: 1400px;
+		height: 183.365px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#DASHBOARD {
+		left: 301px;
+		top: 23px;
+		position: absolute;
+		overflow: visible;
+		width: 86px;
+		white-space: nowrap;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: Website_Main.html;
+		cursor: pointer;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(204,204,204,1);
+	}
+	#HELP {
+		opacity: 0.7;
+		left: 1116px;
+		top: 23px;
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(204,204,204,1);
+	}
+	#BOOK_RIDE {
+		opacity: 0.7;
+		left: 443px;
+		top: 23px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(204,204,204,1);
+	}
+	#LOG_OUT {
+		opacity: 0.7;
+		left: 1210px;
+		top: 23px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: Website_Login.html;
+		cursor: pointer;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(204,204,204,1);
+	}
+	#Group_6 {
+		position: absolute;
+		width: 92px;
+		height: 30px;
+		left: 130px;
+		top: 20px;
+		overflow: visible;
+	}
+	#EScooter {
+		left: 37px;
+		top: 5px;
+		position: absolute;
+		overflow: visible;
+		width: 56px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Sharp Sans No1;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#scooter_white {
+		position: absolute;
+		width: 29px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_1540 {
+		position: absolute;
+		width: 1110.5px;
+		height: 55px;
+		left: 149px;
+		top: 129px;
+		overflow: visible;
+	}
+	#DASHBOARD_bh {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 228px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(68,73,79,1);
+	}
+	#Line_7 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_7 {
+		overflow: visible;
+		position: absolute;
+		width: 1110px;
+		height: 2px;
+		left: 0.5px;
+		top: 54.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_1538 {
+		position: absolute;
+		width: 1145px;
+		height: 542px;
+		left: 131px;
+		top: 209px;
+		overflow: visible;
+	}
+	#Rectangle_1488 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1488 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 1163px;
+		height: 560px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_1542 {
+		position: absolute;
+		width: 228px;
+		height: 225px;
+		left: 332px;
+		top: 225px;
+		overflow: visible;
+	}
+	#Active_Orders {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 222px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(89,89,89,1);
+	}
+	#Order_Number_4 {
+		left: 0px;
+		top: 57px;
+		position: absolute;
+		overflow: visible;
+		width: 134px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Hours_1 {
+		left: 0px;
+		top: 92px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Price_5 {
+		left: 0px;
+		top: 127px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Date_17-3-2022_1336 {
+		left: 0px;
+		top: 162px;
+		position: absolute;
+		overflow: visible;
+		width: 176px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Expiry_Date_17-3-2022_1436 {
+		left: 0px;
+		top: 197px;
+		position: absolute;
+		overflow: visible;
+		width: 229px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Group_1543 {
+		position: absolute;
+		width: 217px;
+		height: 260px;
+		left: 862px;
+		top: 225px;
+		overflow: visible;
+	}
+	#Order_History {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(89,89,89,1);
+	}
+	#Order_Number_3 {
+		left: 0px;
+		top: 57px;
+		position: absolute;
+		overflow: visible;
+		width: 134px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Hours_26 {
+		left: 0px;
+		top: 92px;
+		position: absolute;
+		overflow: visible;
+		width: 77px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Price_130 {
+		left: 0px;
+		top: 127px;
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Date_9-3-2022_2331 {
+		left: 0px;
+		top: 162px;
+		position: absolute;
+		overflow: visible;
+		width: 168px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Expiry_Date_11-3-2022_131 {
+		left: 0px;
+		top: 197px;
+		position: absolute;
+		overflow: visible;
+		width: 211px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Cancelled_Order {
+		left: 0px;
+		top: 232px;
+		position: absolute;
+		overflow: visible;
+		width: 134px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Halyard Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+
+</style>
+</head>
+<body>
+<div id="Website_Dashboard">
+	<svg class="Path_1092" viewBox="0 0 1400 799">
+		<path id="Path_1092" d="M 0 0 L 1400 0 L 1400 799 L 0 799 L 0 0 Z">
+		</path>
+	</svg>
+	<div id="Header">
+		<div id="Group_1541">
+			<div id="Header_-_Desktop" class="Header___Desktop">
+				<svg class="base_" viewBox="0 0 1400 183.365">
+					<linearGradient id="base_" spreadMethod="pad" x1="0.5" x2="0.5" y1="0" y2="1">
+						<stop offset="0" stop-color="#24292f" stop-opacity="1"></stop>
+						<stop offset="0.328" stop-color="#272c32" stop-opacity="0.953"></stop>
+						<stop offset="1" stop-color="#6c7074" stop-opacity="0"></stop>
+					</linearGradient>
+					<path id="base_" d="M 0 0 L 1400 0 L 1400 183.3653717041016 L 0 183.3653717041016 L 0 0 Z">
+					</path>
+				</svg>
+				<div onclick="application.goToTargetView(event)" id="DASHBOARD">
+					<span>DASHBOARD</span>
+				</div>
+				<div id="HELP">
+					<span>HELP</span>
+				</div>
+				<div id="BOOK_RIDE">
+					<span>BOOK RIDE</span>
+				</div>
+				<div onclick="application.goToTargetView(event)" id="LOG_OUT">
+					<span>LOG OUT</span>
+				</div>
+			</div>
+			<div id="Group_6">
+				<div id="EScooter">
+					<span>EScooter</span>
+				</div>
+				<img id="scooter_white" src="scooter_white.png" srcset="scooter_white.png 1x, scooter_white@2x.png 2x">
+					
+			</div>
+		</div>
+	</div>
+	<div id="Group_1540">
+		<div id="DASHBOARD_bh">
+			<span>DASHBOARD</span>
+		</div>
+		<svg class="Line_7" viewBox="0 0 1110 2">
+			<path id="Line_7" d="M 0 0 L 1110 0">
+			</path>
+		</svg>
+	</div>
+	<div id="Group_1538">
+		<svg class="Rectangle_1488">
+			<rect id="Rectangle_1488" rx="18" ry="18" x="0" y="0" width="1145" height="542">
+			</rect>
+		</svg>
+	</div>
+	<div id="Group_1542">
+		<div id="Active_Orders">
+			<span>Active Orders</span>
+		</div>
+		<div id="Order_Number_4">
+			<span>Order Number: 4</span>
+		</div>
+		<div id="Hours_1">
+			<span>Hours: 1</span>
+		</div>
+		<div id="Price_5">
+			<span>Price: £5</span>
+		</div>
+		<div id="Date_17-3-2022_1336">
+			<span>Date: 17-3-2022 13:36</span>
+		</div>
+		<div id="Expiry_Date_17-3-2022_1436">
+			<span>Expiry Date: 17-3-2022 14:36</span>
+		</div>
+	</div>
+	<div id="Group_1543">
+		<div id="Order_History">
+			<span>Order History</span>
+		</div>
+		<div id="Order_Number_3">
+			<span>Order Number: 3</span>
+		</div>
+		<div id="Hours_26">
+			<span>Hours: 26</span>
+		</div>
+		<div id="Price_130">
+			<span>Price: £130</span>
+		</div>
+		<div id="Date_9-3-2022_2331">
+			<span>Date: 9-3-2022 23:31</span>
+		</div>
+		<div id="Expiry_Date_11-3-2022_131">
+			<span>Expiry Date: 11-3-2022 1:31</span>
+		</div>
+		<div id="Cancelled_Order">
+			<span>Cancelled Order</span>
+		</div>
+	</div>
+	<div id="Group_1514">
+		<svg class="Rectangle_1485">
+			<rect id="Rectangle_1485" rx="4" ry="4" x="0" y="0" width="79" height="33">
+			</rect>
+		</svg>
+		<div id="Cancel_Order">
+			<span>Cancel Order</span>
+		</div>
+	</div>
+	<div id="Group_1564">
+		<svg class="Rectangle_1485_b">
+			<rect id="Rectangle_1485_b" rx="4" ry="4" x="0" y="0" width="47" height="33">
+			</rect>
+		</svg>
+		<div id="Cancel_">
+			<span>Cancel </span>
+		</div>
+	</div>
+</div>
+</body>
+</html>

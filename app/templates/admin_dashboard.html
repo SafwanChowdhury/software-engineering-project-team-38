@@ -1,0 +1,22 @@
+{% extends "admin_base.html" %}
+{% block content %}
+
+<head>
+    <title>AdminDashboard</title>
+</head>
+<body>
+    <h1 style="color:rgba(68,73,79,1);">Admin Dashboard</h1>
+	<svg class="Line_7" viewBox="0 0 1110 2" preserveAspectRatio="none">
+			<path id="Line_7" d="M 0 0 L 1110 0">
+			</path>
+	</svg>
+	<br></br>
+    <a href="/admin/bookings" class="myButton">View bookings</a>
+    <a href="/admin/statistics" class="myButton">View statistics</a>
+    <a href="admin/manage" class="myButton">Configure details</a>
+    <a href="admin/issues" class="myButton">View reported issues</a>
+	<a href="admin/pricing" class="myButton">Configure Pricing</a>
+
+</body>
+
+{% endblock content %}

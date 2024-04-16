@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+{% extends "Base/Website_Base.html" %}
+{% block content %}
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../../static/Dashboard.css">
+<style>
+	.topnav{display:none}
+	.topnav-dashboard{display:block}
+	.Footer___Desktop{display:none}
+	@media screen and (max-width: 900px){
+	.topnav-dashboard{display:none}
+	}
+	.container_menu2{display:block}
+	.container_menu{display:none}
+	#Home_cz {
+    	left: -25px;
+		width: 132px;
+    }
+    #About_Us_c {
+        left: -22px;
+		width: 132px;
+    }
+    #Pricing_c {
+        left: -12px;
+		width: 100px;
+    }
+    #Contact_c {
+        left: -12px;
+		width: 100px;
+    }
+    #My_Account_c {
+        left: -32px;
+    }
+</style>
+<title>Website Dashboard</title>
+</head>
+<body>
+<div id="Website_Dashboard">
+	<svg class="Path_1092" viewBox="0 0 1400 799" preserveAspectRatio="none">
+		<path id="Path_1092" d="M 0 0 L 1400 0 L 1400 799 L 0 799 L 0 0 Z">
+		</path>
+	</svg>
+	<div id="Group_1538">
+		<svg class="Rectangle_1488">
+			<rect id="Rectangle_1488" rx="18" ry="18" x="0" y="0" width="100%" height="100%">
+			</rect>
+		</svg>
+	</div>
+	<div class="Group_1542">
+		<div id="Active_Orders">
+			<span>Active Orders</span>
+		</div>
+		<div id="Order_Number_4">
+		{% if not active %}
+        	<p>You have no active orders</p>
+    	{% endif %}
+
+    	{% for elem in orders|reverse %}
+       	{% if elem.id  in active[:4] %}
+            	{% if not elem.cancelled %}
+                	<p>Order Number: {{elem.id}}</p>
+                	<p>Hours: {{elem.numHours}}</p>
+                	<p>Price: £{{elem.price}}</p>
+                	<p>Date: {{elem.date.day}}-{{elem.date.month}}-{{elem.date.year}} {{elem.date.hour}}:{{elem.date.minute}}</p>
+                	<p>Expiry Date: {{elem.expiry.day}}-{{elem.expiry.month}}-{{elem.expiry.year}} {{elem.expiry.hour}}:{{elem.expiry.minute}}</p>
+					<p>Scooter ID: {{elem.ScooterID}}</p>
+					<button type="Cancel Order" class="btn-primary"  onclick="window.location.href='/cancel_booking/{{elem.id}}'">Cancel Booking</button>
+                	<script>
+                    function revealButtons(){
+                        document.getElementById("toggle_show").hidden = true;
+                        document.getElementById("toggle_hide").hidden = false;
+                        elements = document.getElementsByClassName("btn-secondary");
+                        for (let i = 0; i < elements.length; i++){
+                            elements[i].hidden = false 
+                        }
+                    }
+                    function hideButtons(){
+                        document.getElementById("toggle_show").hidden = false;
+                        document.getElementById("toggle_hide").hidden = true;
+                        elements = document.getElementsByClassName("btn-secondary");
+                        for (let i = 0; i < elements.length; i++){
+                            elements[i].hidden = true 
+                        }
+                    }
+                </script>
+                <button type="Cancel Order" class="btn-primary" id="toggle_show" onclick="revealButtons()" style="left: 100px">Extend booking</button>
+                <button type="Cancel Order" class="btn-secondary" id="toggle_hide" hidden onclick="hideButtons()" style="left: 100px" >Cancel</button>
+                <button type="Cancel Order" id= "{{elem.id}}" class="btn btn-secondary" hidden onclick="window.location.href='/extend_booking/{{elem.id}}/1'" style="left: 150px">1 Hour</button>
+                <button type="Cancel Order" id="test" class="btn-secondary" hidden onclick="window.location.href='/extend_booking/{{elem.id}}/2'" style="left: 200px">4 Hours</button>
+                <button type="Cancel Order" id="test" class="btn-secondary" hidden onclick="window.location.href='/extend_booking/{{elem.id}}/3'" style="left: 250px">1 Day</button>
+                <button type="Cancel Order" id="test" class="btn-secondary" hidden onclick="window.location.href='/extend_booking/{{elem.id}}/4'" style="left: 300px">1 Week</button>
+				<br></br>
+            	{% endif %}
+        	{% endif %}
+    	{% endfor %}
+    	<br> </br>
+		</div>
+	</div>
+	<div class="Group_1543">
+		<div id="Order_History">
+			<span>Order History</span>
+		</div>
+		<div id="Order_Number_3">
+			{% set x = 0 %}
+			{% for elem in orders[:4]|reverse %}
+        		{% if elem.id not in active or elem.cancelled %}
+				{% set x = x+1 %}
+					{% if x <= 2 %}
+						<p>Order Number: {{elem.id}}</p>
+						<p>Hours: {{elem.numHours}}</p>
+						<p>Price: £{{elem.price}}</p>
+						<p>Date: {{elem.date.day}}-{{elem.date.month}}-{{elem.date.year}} {{elem.date.hour}}:{{elem.date.minute}}</p>
+						<p>Expiry Date: {{elem.expiry.day}}-{{elem.expiry.month}}-{{elem.expiry.year}} {{elem.expiry.hour}}:{{elem.expiry.minute}}</p>
+						<p>Scooter ID: {{elem.ScooterID}}</p>
+						{% if elem.cancelled %}
+							<p style="font-weight: normal">Cancelled Order</p>
+						{% endif %}
+						<br> </br>
+					{% endif %}
+        		{% endif %}
+    		{% endfor %} 
+		</div>
+	</div>
+	<div id="Group_1540">
+		<div id="DASHBOARD_bf">
+			<span>DASHBOARD</span>
+		</div>
+		<svg class="Line_7" viewBox="0 0 1110 2" preserveAspectRatio="none">
+			<path id="Line_7" d="M 0 0 L 1110 0">
+			</path>
+		</svg>
+	</div>
+	<button class="history" onclick = "history()">
+            <svg class="Icon_material-history" viewBox="1.5 4.5 31.5 27">
+                <path id="Icon_material-history" d="M 19.5 4.5 C 12.04500007629395 4.5 6 10.54500007629395 6 18 L 1.5 18 L 7.335000038146973 23.83499908447266 L 7.440000057220459 24.04499816894531 L 13.5 18 L 9 18 C 9 12.19499969482422 13.69499969482422 7.5 19.5 7.5 C 25.30500030517578 7.5 30 12.19499969482422 30 18 C 30 23.80500030517578 25.30500030517578 28.5 19.5 28.5 C 16.60499954223633 28.5 13.97999954223633 27.31500053405762 12.09000015258789 25.40999984741211 L 9.960000038146973 27.54000091552734 C 12.40499973297119 29.98500061035156 15.76500034332275 31.5 19.5 31.5 C 26.95499992370605 31.5 33 25.45499992370605 33 18 C 33 10.54500007629395 26.95499992370605 4.5 19.5 4.5 Z M 18 12 L 18 19.5 L 24.42000007629395 23.30999946594238 L 25.5 21.49499893188477 L 20.25 18.375 L 20.25 12 L 18 12 Z">
+                </path>
+            </svg>
+	</button>
+</div>
+</body>
+<script>
+var x = 0;
+function history(){
+	var history = document.getElementsByClassName('Group_1543');
+	var orders = document.getElementsByClassName('Group_1542');
+	if (x == 0){
+		x = 1;
+		for (var i = 0; i < history.length; i ++) {
+            history[i].style.display = 'inline-block';
+        }
+		for (var i = 0; i < orders.length; i ++) {
+            orders[i].style.display = 'none';
+        }
+	}
+	else if (x == 1){
+		x = 0;
+		for (var i = 0; i < history.length; i ++) {
+            history[i].style.display = 'none';
+        }
+		for (var i = 0; i < orders.length; i ++) {
+            orders[i].style.display = 'inline-block';
+        }
+	}
+}
+	
+function restore_orders(){
+    var history1 = document.getElementsByClassName('Group_1543');
+    var orders1 = document.getElementsByClassName('Group_1542');	
+    if (window.innerWidth > 900){
+        x = 0;
+        for (var i = 0; i < history1.length; i ++) {
+            history1[i].style.display = 'inline-block';
+        }
+        for (var i = 0; i < orders1.length; i ++) {
+            orders1[i].style.display = 'inline-block';
+        }
+    }
+	else if (window.innerWidth < 900 && x == 0){
+		for (var i = 0; i < history1.length; i ++) {
+            history1[i].style.display = 'none';
+        }
+		for (var i = 0; i < orders1.length; i ++) {
+            orders1[i].style.display = 'inline-block';
+        }
+	}
+	else if (window.innerWidth < 900 && x == 1){
+		for (var i = 0; i < history1.length; i ++) {
+            history1[i].style.display = 'inline-block';
+        }
+		for (var i = 0; i < orders1.length; i ++) {
+            orders1[i].style.display = 'none';
+        }
+	}
+}
+window.addEventListener("resize", restore_orders);
+</script>
+</html>
+{% endblock %}

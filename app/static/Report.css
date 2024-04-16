@@ -1,0 +1,294 @@
+@import url("https://use.typekit.net/sqj6cer.css");
+@import url(//db.onlinewebfonts.com/c/154ebfcef3ca74b92a56a5826ee85d74?family=Sharp+Sans+No1+Bold);
+@import url(//db.onlinewebfonts.com/c/4b20d1a4e849e41959b1c169dd9683c4?family=Sharp+Sans+No1+Light);
+@import url(//db.onlinewebfonts.com/c/59e7605c0e625de0522a548ac1a15d91?family=Sharp+Sans+No1+Medium+Italic);
+.mediaViewInfo {
+	--web-view-name: Website Report;
+	--web-view-id: Website_Report;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Website_Report;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Website_Report {
+	position: absolute;
+	width: 100%;
+	height: 120%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Website Report;
+	--web-view-id: Website_Report;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_666 {
+	fill: rgba(157,157,157,1);
+}
+.Rectangle_666 {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+#Header {
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Header_-_Desktop {
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_ {
+	fill: url(#base_);
+}
+.base_ {
+	overflow: visible;
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_6 {
+	position: relative;
+	width: 92px;
+	height: 30px;
+	margin: auto;
+	top: 17px;
+	overflow: visible;
+}
+.btn_EScooter {
+	background: inherit;
+	border: none;
+	left: 18px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Sharp Sans No1 Medium Italic, Sans-Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+	cursor: pointer;
+}
+#scooter_white {
+	position: absolute;
+	width: 29px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_1532 {
+	position: relative;
+	width: 388px;
+	height: 566px;
+	margin: auto;
+	top: 134px;
+	overflow: visible;
+}
+#Rectangle_667 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_667 {
+	filter: drop-shadow(0px 3px 6px rgba(39, 39, 39, 0.471));
+	position: absolute;
+	overflow: visible;
+	width: 406px;
+	height: 584px;
+	left: 0px;
+	top: 0px;
+}
+#Report_an_Issue {
+	left: 99px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 191px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Report_an_issue_and_out_team_w {
+	left: 64px;
+	top: 77px;
+	position: absolute;
+	overflow: visible;
+	width: 261px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_1484 {
+	fill: transparent;
+}
+.Rectangle_1484 {
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 18px;
+	left: 238px;
+	top: 334px;
+}
+#Group_1561 {
+	position: absolute;
+	width: 292px;
+	height: 380px;
+	left: 48px;
+	top: 135px;
+	overflow: visible;
+}
+#Group_1433 {
+	position: absolute;
+	width: 292px;
+	height: 34px;
+	left: 0px;
+	top: 346px;
+	overflow: visible;
+}
+.Rectangle_1482 {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+	outline: none;
+	border-radius: 8px;
+	font-size: 16px;
+	background-color: rgba(39,44,50,1);
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+	cursor: pointer;
+}
+#Group_1560 {
+	position: absolute;
+	width: 292px;
+	height: 266px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_1431 {
+	position: absolute;
+	width: 292px;
+	height: 156px;
+	left: 0px;
+	top: 110px;
+	overflow: visible;
+}
+.Rectangle_1483 {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 138px;
+	left: 0px;
+	top: 18px;
+	background-color: inherit;
+	outline: none;
+	border: solid;
+	border-width: 2px;
+	border-color: rgba(112,112,112,1);
+	border-radius: 8px;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: 300;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 13px;
+	resize: none;
+}
+#Describe_the_issue {
+	left: 8px;
+	top: -7px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Group_1559 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1483_bp {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 42px;
+	left: 0px;
+	top: 18px;
+	background-color: inherit;
+	outline: none;
+	border: solid;
+	border-width: 2px;
+	border-color: rgba(112,112,112,1);
+	border-radius: 8px;
+	padding-left: 20px;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+}
+#Issue {
+	left: 8px;
+	top: -7px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}

@@ -1,0 +1,631 @@
+@import url("https://use.typekit.net/sqj6cer.css");
+@import url(//db.onlinewebfonts.com/c/154ebfcef3ca74b92a56a5826ee85d74?family=Sharp+Sans+No1+Bold);
+@import url(//db.onlinewebfonts.com/c/4b20d1a4e849e41959b1c169dd9683c4?family=Sharp+Sans+No1+Light);
+@import url(//db.onlinewebfonts.com/c/59e7605c0e625de0522a548ac1a15d91?family=Sharp+Sans+No1+Medium+Italic);
+.mediaViewInfo {
+	--web-view-name: Website Login;
+	--web-view-id: Website_Login;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Website_Login;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Website_Login {
+	position: absolute;
+	width: 100%;
+	height: 120%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Website Login;
+	--web-view-id: Website_Login;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_666 {
+	fill: rgba(157,157,157,1);
+}
+.Rectangle_666 {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+#Header {
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Header_-_Desktop {
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_n {
+	fill: url(#base_n);
+}
+.base_n {
+	overflow: visible;
+	position: absolute;
+	width: 100%;
+	height: 183.365px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.container{
+	position:absolute;
+	overflow: visible;
+	width: 406px;
+	height: 100%;
+	left: calc(50% - 194.5px);
+	top: 0px;
+	
+}
+#Group_6 {
+	position: absolute;
+	width: 92px;
+	height: 30px;
+	left: 36%;
+	top: 17px;
+	overflow: visible;
+}
+.btn_EScooter {
+	background: inherit;
+	border: none;
+	left: 18px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Sharp Sans No1 Medium Italic, Sans-Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+	cursor: pointer;
+}
+#scooter_white {
+	position: absolute;
+	width: 29px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_667 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_667 {
+	filter: drop-shadow(0px 3px 6px rgba(39, 39, 39, 0.471));
+	position: relative;
+	overflow: visible;
+	width: 406px;
+	height: 584px;
+	left: 0px;
+	top: 134px;
+}
+#Component_21 {
+	position: absolute;
+	width: 342px;
+	height: 54px;
+	left: 23px;
+	top: 611px;
+	overflow: visible;
+}
+#Background {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Background {
+	position: absolute;
+	overflow: visible;
+	width: 343px;
+	height: 55px;
+	left: 0px;
+	top: 0px;
+}
+#Group {
+	position: absolute;
+	width: 16px;
+	height: 29px;
+	left: 15.857px;
+	top: 11px;
+	overflow: visible;
+}
+#Text {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 17px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: SF Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#n_Sign_in_with_Apple {
+	position: absolute;
+	width: 158px;
+	height: 24px;
+	left: 91.857px;
+	top: 15px;
+	overflow: visible;
+	padding: 0px;
+}
+#Sign_in_with_Apple {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	line-height: 28px;
+	margin-top: -4px;
+	text-align: center;
+	font-family: SF Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Group_1430 {
+	position: absolute;
+	width: 342px;
+	height: 54px;
+	left: 23px;
+	top: 529px;
+	overflow: visible;
+}
+#Component_21_z {
+	position: absolute;
+	width: 342px;
+	height: 54px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Background_ {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Background_ {
+	position: absolute;
+	overflow: visible;
+	width: 343px;
+	height: 55px;
+	left: 0px;
+	top: 0px;
+}
+#n_Sign_in_with_Apple_ {
+	left: 94px;
+	top: 19px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	line-height: 15px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	color: rgba(105,105,105,1);
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+#Group_1429 {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 11px;
+	top: 14px;
+	overflow: visible;
+}
+#Rectangle_1478 {
+	fill: transparent;
+}
+.Rectangle_1478 {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#logo_googleg_48dp {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 3px;
+	top: 3px;
+	overflow: visible;
+}
+#Shape {
+	fill: rgba(66,133,244,1);
+}
+.Shape {
+	overflow: visible;
+	position: absolute;
+	width: 8.64px;
+	height: 8.456px;
+	left: 9px;
+	top: 7.364px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Shape_ {
+	fill: rgba(52,168,83,1);
+}
+.Shape_ {
+	overflow: visible;
+	position: absolute;
+	width: 13.999px;
+	height: 7.29px;
+	left: 0.957px;
+	top: 10.71px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Shape_ba {
+	fill: rgba(251,188,5,1);
+}
+.Shape_ba {
+	overflow: visible;
+	position: absolute;
+	width: 3.964px;
+	height: 8.084px;
+	left: 0px;
+	top: 4.958px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Shape_bb {
+	fill: rgba(234,67,53,1);
+}
+.Shape_bb {
+	overflow: visible;
+	position: absolute;
+	width: 14.064px;
+	height: 7.29px;
+	left: 0.957px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Shape_bc {
+	fill: rgba(0,0,0,0);
+}
+.Shape_bc {
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_1434 {
+	position: absolute;
+	width: 345px;
+	height: 31px;
+	left: 21.5px;
+	top: 492px;
+	overflow: visible;
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 345px;
+	height: 1px;
+	left: 0px;
+	top: 17.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_1479 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_1479 {
+	position: absolute;
+	overflow: visible;
+	width: 26px;
+	height: 26px;
+	left: 159.5px;
+	top: 5px;
+}
+#or {
+	left: 164.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 17px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Sign_in {
+	left: 153px;
+	top: 163px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Login_in_to_manage_your_account {
+	left: 49px;
+	top: 211px;
+	position: absolute;
+	overflow: visible;
+	width: 287px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+#Group_1432 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 48px;
+	top: 248px;
+	overflow: visible;
+}
+#Rectangle_1480 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1480 {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 42px;
+	left: 0px;
+	top: 18px;
+}
+#Email_or_mobile_number {
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+
+#Group_1431 {
+	position: absolute;
+	width: 292px;
+	height: 60px;
+	left: 48px;
+	top: 328px;
+	overflow: visible;
+}
+#Rectangle_1483 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1483 {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 42px;
+	left: 0px;
+	top: 18px;
+}
+#Password {
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#Password_Show{
+	overflow: visible;
+	position: absolute;
+	width: 16.738px;
+	height: 13.391px;
+	left: 312.5px;
+	top: 361.109px;
+	cursor: pointer;
+	background-color: inherit;
+}
+#Icon_awesome-eye-slash {
+	opacity: 0.6;
+	fill: rgba(0,0,0,1);
+}
+.Icon_awesome-eye-slash {
+	overflow: visible;
+	position: absolute;
+	width: 16.738px;
+	height: 13.391px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Dont_have_an_account_Sign_up {
+	opacity: 0.8;
+	left: 87px;
+	top: 468px;
+	position: absolute;
+	overflow: visible;
+	width: 171px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.2px;
+}
+#SIGNUP {
+	opacity: 0.8;
+	left: 239px;
+	top: 468px;
+	position: absolute;
+	overflow: visible;
+	width: 50;
+	white-space: nowrap;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(111,111,255,1);
+	letter-spacing: 0.2px;
+	text-decoration: none;
+}
+#SIGNUP:link{
+	color: rgba(111,111,255,1);
+}
+#SIGNUP:visited{
+	color: rgba(111,111,255,1);
+}
+#SIGNUP:hover{
+	opacity: 1;
+}
+input[type=text], input[type=password]{
+	width: 100%;
+	box-sizing: border-box;
+	border: 0px solid #ccc;
+	border-radius:8px;
+	font-size: 10px;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	background: inherit;
+	width: 298px;
+	padding: 12px 15px;
+	outline: none;
+}
+#Email_or_mobile_number_bj {
+	opacity: 0.5;
+	left: 0px;
+	top: 17.5px;
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+#Password_bn {
+	opacity: 0.5;
+	left: 0px;
+	top: 17.5px;
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+}
+.signin {
+	background-color: rgba(39,44,50,1);
+	width: 292px;
+	height: 34px;
+	left: 48px;
+	top: 413px;
+	border: 0px solid black;
+	border-width: 0px;
+	border-linejoin: miter;
+	border-linecap: butt;
+	border-miterlimit: 4;
+	shape-rendering: auto;
+	border-radius: 8px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: halyard-display;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+	cursor: pointer;
+}

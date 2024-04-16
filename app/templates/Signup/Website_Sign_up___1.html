@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../../static/Signup.css">
+<title>Website Sign up – 1</title>
+</head>
+<body>
+<div id="Website_Sign_up__1">
+	<svg class="Rectangle_666">
+		<rect id="Rectangle_666" rx="0" ry="0" x="0" y="0" width="100%" height="100%" preserveAspectRatio="none">
+		</rect>
+	</svg>
+	<div id="Header">
+		<div id="Header_-_Desktop" class="Header___Desktop">
+			<svg class="base_n" viewBox="0 0 1400 183.365" preserveAspectRatio="none">
+				<linearGradient id="base_n" spreadMethod="pad" x1="0.5" x2="0.5" y1="0" y2="1">
+					<stop offset="0" stop-color="#24292f" stop-opacity="1"></stop>
+					<stop offset="0.328" stop-color="#272c32" stop-opacity="0.953"></stop>
+					<stop offset="1" stop-color="#6c7074" stop-opacity="0"></stop>
+				</linearGradient>
+				<path id="base_n" d="M 0 0 L 1400 0 L 1400 183.3653717041016 L 0 183.3653717041016 L 0 0 Z">
+				</path>
+			</svg>
+		</div>
+	</div>
+	<div class="container">
+	<div id="Group_6">
+			<div class="btn_EScooter">
+				<button class = "btn_EScooter" onclick="window.location.href='/'">EScooter</button>
+			</div>
+			<img id="scooter_white" src="/static/scooter_white.png" srcset="/static/scooter_white.png 1x, /static/scooter_white@2x.png 2x">
+				
+		</div>
+	<form method = "POST" class="form">
+		{{ form.hidden_tag() }}
+      <svg class="Rectangle_667">
+          <rect id="Rectangle_667" rx="20" ry="20" x="0" y="0" width="388" height="566">
+          </rect>
+      </svg>
+      <div id="Sign_Up">
+          <span>Sign Up</span>
+      </div>
+      <div id="Group_1437">
+          <div id="Group_1435">
+              <div id="Group_1431">
+                  <svg class="Rectangle_1483">
+                      <rect id="Rectangle_1483" rx="8" ry="8" x="0" y="0" width="292" height="42">
+                      </rect>
+                  </svg>
+                  <svg class="Rectangle_14832">
+                      <rect id="Rectangle_14832" rx="8" ry="8" x="0" y="0" width="292" height="42">
+                      </rect>
+                  </svg>
+                  <div id="Enter_a_password">
+                      <span>Enter a password</span>
+                  </div>
+                  {{ form.password_1 (class="Password") }}
+                  {% for error in form.password_1.errors %}
+                      <li class='error-message'>{{ error }}</li>
+                  {% endfor %}
+                  {{ form.password_2 (class="Password2") }}
+                  {% for error in form.password_2.errors %}
+                      <li class='error-message'>{{ error }}</li>
+                  {% endfor %}
+              </div>
+          </div>
+          <svg class="Icon_ionic-ios-lock" viewBox="2.813 1.406 9.375 12.188">
+              <path id="Icon_ionic-ios-lock" d="M 11.015625 5.625 L 10.3125 5.625 L 10.3125 4.2568359375 C 10.3125 2.712890625 9.08203125 1.4296875 7.5380859375 1.40625 C 5.9736328125 1.3857421875 4.6875 2.66015625 4.6875 4.21875 L 4.6875 5.625 L 3.984375 5.625 C 3.33984375 5.625 2.8125 6.15234375 2.8125 6.796875 L 2.8125 12.421875 C 2.8125 13.06640625 3.33984375 13.59375 3.984375 13.59375 L 11.015625 13.59375 C 11.66015625 13.59375 12.1875 13.06640625 12.1875 12.421875 L 12.1875 6.796875 C 12.1875 6.15234375 11.66015625 5.625 11.015625 5.625 Z M 7.91015625 9.28125 L 7.91015625 11.296875 C 7.91015625 11.5166015625 7.740234375 11.70703125 7.5205078125 11.71875 C 7.2861328125 11.73046875 7.08984375 11.54296875 7.08984375 11.30859375 L 7.08984375 9.28125 C 6.7529296875 9.1171875 6.5302734375 8.759765625 6.5654296875 8.3525390625 C 6.6064453125 7.8984375 6.978515625 7.53515625 7.4326171875 7.5029296875 C 7.98046875 7.46484375 8.4375 7.8984375 8.4375 8.4375 C 8.4375 8.8095703125 8.2236328125 9.12890625 7.91015625 9.28125 Z M 9.4921875 5.625 L 5.5078125 5.625 L 5.5078125 4.21875 C 5.5078125 3.6884765625 5.7158203125 3.1904296875 6.09375 2.8125 C 6.4716796875 2.4345703125 6.9697265625 2.2265625 7.5 2.2265625 C 8.0302734375 2.2265625 8.5283203125 2.4345703125 8.90625 2.8125 C 9.2841796875 3.1904296875 9.4921875 3.6884765625 9.4921875 4.21875 L 9.4921875 5.625 Z">
+              </path>
+          </svg>
+      </div>
+      <div id="Group_1436">
+          <div id="Group_1432">
+              <svg class="Rectangle_1480">
+                  <rect id="Rectangle_1480" rx="8" ry="8" x="0" y="0" width="292" height="42">
+                  </rect>
+              </svg>
+              <div id="Enter_your_email">
+                  <span>Enter your email</span>
+              </div>
+              {{ form.email (class="Email") }}
+              {% for error in form.email.errors %}
+                  <li class='error-message'>{{ error }}</li>
+              {% endfor %}
+          </div>
+          <div id="Icon_ionic-ios-mail">
+              <svg class="Path_210" viewBox="1.406 4.297 12.188 7.421">
+                  <path id="Path_210" d="M 13.494140625 4.3154296875 L 10.341796875 7.5263671875 C 10.318359375 7.5498046875 10.318359375 7.5849609375 10.341796875 7.6083984375 L 12.5478515625 9.9580078125 C 12.697265625 10.107421875 12.697265625 10.34765625 12.5478515625 10.4970703125 C 12.474609375 10.5703125 12.375 10.6083984375 12.2783203125 10.6083984375 C 12.181640625 10.6083984375 12.08203125 10.5703125 12.0087890625 10.4970703125 L 9.8115234375 8.15625 C 9.7880859375 8.1328125 9.75 8.1328125 9.7265625 8.15625 L 9.1904296875 8.701171875 C 8.7421875 9.1552734375 8.1474609375 9.4072265625 7.5087890625 9.41015625 C 6.861328125 9.4130859375 6.24609375 9.140625 5.7919921875 8.6806640625 L 5.2763671875 8.15625 C 5.2529296875 8.1328125 5.21484375 8.1328125 5.19140625 8.15625 L 2.994140625 10.4970703125 C 2.9208984375 10.5703125 2.8212890625 10.6083984375 2.724609375 10.6083984375 C 2.6279296875 10.6083984375 2.5283203125 10.5703125 2.455078125 10.4970703125 C 2.3056640625 10.34765625 2.3056640625 10.107421875 2.455078125 9.9580078125 L 4.6611328125 7.6083984375 C 4.681640625 7.5849609375 4.681640625 7.5498046875 4.6611328125 7.5263671875 L 1.505859375 4.3154296875 C 1.4677734375 4.27734375 1.40625 4.3037109375 1.40625 4.3564453125 L 1.40625 10.78125 C 1.40625 11.296875 1.828125 11.71875 2.34375 11.71875 L 12.65625 11.71875 C 13.171875 11.71875 13.59375 11.296875 13.59375 10.78125 L 13.59375 4.3564453125 C 13.59375 4.3037109375 13.529296875 4.2802734375 13.494140625 4.3154296875 Z">
+                  </path>
+              </svg>
+              <svg class="Path_211" viewBox="1.761 3.281 11.481 5.364">
+                  <path id="Path_211" d="M 7.5 8.6455078125 C 7.93359375 8.6455078125 8.3408203125 8.4755859375 8.6455078125 8.1650390625 L 13.2421875 3.486328125 C 13.0810546875 3.357421875 12.8818359375 3.28125 12.662109375 3.28125 L 2.3408203125 3.28125 C 2.12109375 3.28125 1.9189453125 3.357421875 1.7607421875 3.486328125 L 6.357421875 8.1650390625 C 6.6591796875 8.47265625 7.06640625 8.6455078125 7.5 8.6455078125 Z">
+                  </path>
+              </svg>
+          </div>
+      </div>
+      <div id="Group_1439">
+          <div id="Group_1438">
+              <div id="Group_1432_be">
+                  <svg class="Rectangle_1480_bf">
+                      <rect id="Rectangle_1480_bf" rx="8" ry="8" x="0" y="0" width="292" height="42">
+                      </rect>
+                  </svg>
+                  <div id="Enter_your_phone_number">
+                      <span>Enter your phone number</span>
+                  </div>
+  				<input id="Phone_Number" name="phone_number" type="text" value="" placeholder="Phone Number" autofocus="on"></input>
+                  <div id="n_4">
+                      <span>+44</span>
+                  </div>
+              </div>
+              <div id="Icon_feather-smartphone">
+                  <svg class="Path_212" viewBox="3.125 1.25 8.75 12.5">
+                      <path id="Path_212" d="M 4.375 1.25 L 10.625 1.25 C 11.31535625457764 1.25 11.875 1.809644103050232 11.875 2.5 L 11.875 12.5 C 11.875 13.19035625457764 11.31535625457764 13.75 10.625 13.75 L 4.375 13.75 C 3.684643983840942 13.75 3.125 13.19035625457764 3.125 12.5 L 3.125 2.5 C 3.125 1.809643983840942 3.684644222259521 1.24999988079071 4.375 1.25 Z">
+                      </path>
+                  </svg>
+                  <svg class="Path_213" viewBox="7.5 11.25 1.25 1.25">
+                      <path id="Path_213" d="M 7.5 11.25 L 7.5 11.25">
+                      </path>
+                  </svg>
+              </div>
+          </div>
+          <svg class="Line_3" viewBox="0 0 1 42">
+              <path id="Line_3" d="M 0 0 L 0 42">
+              </path>
+          </svg>
+          <svg class="Polygon_1" viewBox="0 0 6 6">
+              <path id="Polygon_1" d="M 3 0 L 6 6 L 0 6 Z">
+              </path>
+          </svg>
+      </div>
+      <div id="Group_1440">
+          <div id="Group_1432_bp">
+              <svg class="Rectangle_1480_bq">
+                  <rect id="Rectangle_1480_bq" rx="8" ry="8" x="0" y="0" width="220" height="42">
+                  </rect>
+              </svg>
+              <div id="First_Name">
+                  <span>Full Name</span>
+              </div>
+              {{ form.username (class="First_Name_bs") }}
+              {% for error in form.username.errors %}
+                  <li class='error-message'>{{ error }}</li>
+              {% endfor %}
+          </div>
+      </div>
+      <div id="Group_1441">
+          <div id="Group_1432_bu" style="left: 80px">
+              <svg class="Rectangle_1480_bv">
+                  <rect id="Rectangle_1480_bv" rx="8" ry="8" x="0" y="0" width="55" height="42">
+                  </rect>
+              </svg>
+              <div id="Last_Name">
+                  <span>Age</span>
+              </div>
+              {{ form.age (class="First_Name_bs") }}
+				{% for error in form.age.errors %}
+					<li class='error-message'>{{ error }}</li>
+				{% endfor %}
+  			<!-- <input id="Last_Name_bx" name="Age" type="text" value="" placeholder="Age" autofocus="on"></input> -->
+          </div>
+      </div>
+      <div id="Group_1433">
+          <div id="Group_1442">
+<!--                  {{ form.submit (class="signup")}}-->
+  			<button type="submit" class="signup">Sign Up</button>
+          </div>
+      </div>
+	</form>
+	</div>
+</div>
+</body>
+</html>

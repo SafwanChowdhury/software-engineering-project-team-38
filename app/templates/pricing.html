@@ -1,0 +1,42 @@
+{% extends "admin_base.html" %}
+{% block content %}
+
+<head>
+    <title>Pricing table</title>
+</head>
+<body>
+
+    <h2>Pricing Table</h2>
+
+    <!-- {% for elem in prices %}
+            {% if not elem.cancelled %}
+                <p>Time: {{elem.time}}</p>
+                <p>Price per hour: {{elem.price}}</p>
+                <br> </br>
+            {% endif %}
+    {% endfor %} -->
+    <form method="POST" class="form">
+        {{ form.hidden_tag() }}
+        <p>Time: {{prices[0].time}}</p>
+        {{ form.hour_price}}
+        <br> </br>
+
+        <p>Time: {{prices[1].time}}</p>
+        {{ form.four_hour_price}}
+        <br> </br>
+
+        <p>Time: {{prices[2].time}}</p>
+        {{ form.day_price}}
+        <br> </br>
+
+        <p>Time: {{prices[3].time}}</p>
+        {{ form.week_price}}
+
+        {{ form.submit (class = "btn btn-primary") }}
+        <br> </br>
+    </form>
+
+    
+</body>
+
+{% endblock content %}

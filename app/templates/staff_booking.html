@@ -1,0 +1,154 @@
+{% extends "staff_base.html" %}
+{% block content %}
+
+<head>
+    <title>StaffBooking</title>
+</head>
+<style>
+	#paynow{
+		display:none;
+	}	
+</style>
+<body>
+    <h1 style="color:rgba(68,73,79,1);">Create a booking</h1>
+	<svg class="Line_7" viewBox="0 0 1110 2" preserveAspectRatio="none">
+			<path id="Line_7" d="M 0 0 L 1110 0">
+			</path>
+	</svg>
+	<div class = 'container'>
+		<div class = 'row'>
+		  <div class = 'col'>
+			<h1> Choose a location:</h1>		
+                <select id="myDropdown" style = "font-size: 25px;">
+                    <option value= "0">Pick-Up Location</option>
+                    <option value= "1">Trinity Centre</option>
+                    <option value= "2">Leeds Train Station</option>
+                    <option value= "3">Merrion Centre</option>
+                    <option value= "4">LRI Hospital</option>
+                    <option value= "5">UoL Edge Sports Centre</option>
+                </select>
+				<p style = "font-size: 20px; padding-top: 20px;"> There Are
+					<span class="output"></span>
+					Scooters Available.
+				</p>
+				<script type="text/javascript">
+				function getOption() {
+					var count = {{count|tojson }};
+					selElmnt = document.querySelector('#myDropdown');
+					output = (count[(selElmnt.selectedIndex)-1]);
+					if (output > 1){
+						document.querySelector('.output').textContent = output;
+						document.getElementById("paynow").style.display = "block";
+					}
+					else{
+						document.querySelector('.output').textContent = "No";
+						document.getElementById("paynow").style.display = "none";
+					}
+				}
+				document.addEventListener("click", getOption);
+				function locationSubmit() {
+					document.getElementById("location").value = selElmnt.selectedIndex;
+				}
+				</script>
+		  </div>
+		  <div class = 'col'>
+			<h1>Payment!</h1>
+			<div class="form-wrapper">
+			  <form method="POST" class="form">
+				{{ form.hidden_tag() }}
+				<input style = "display: none;" id= "location" name="location" type="text"></input>
+				<fieldset class="form-field">
+					{{ form.email.label(class = "form-label")}}
+					{{ form.email }}
+				</fieldset>
+
+				<p> Select hire period: 
+					<select class="n__Hours" id="myDropdown2">
+						<option value= "1">1 Hour - £{{prices[0].price|round|int }}</option>
+						<option value= "2">4 Hours - £{{prices[1].price|round|int }}</option>
+						<option value= "3">1 Day - £{{prices[2].price|round|int }}</option>
+						<option value= "4">1 Week - £{{prices[3].price|round|int }}</option>
+					</select>
+				</p>
+				<script>
+					function hoursSubmit(){
+						var select = document.getElementById('myDropdown2');
+						var value = select.options[select.selectedIndex].value;
+						document.getElementById("hours").value = value;
+					}
+				</script>
+				<input style = "display: none;"  id= "hours" name="hours" type="text"></input>
+				
+				<fieldset class="form-field">
+				  {{ form.name.label(class = "form-label")}}
+				  {{ form.name}}
+				  {% for error in form.name.errors %}
+					<li class='error-message'>{{ error }}</li>
+				  {% endfor %}
+				</fieldset>
+		
+				<fieldset class="form-field">
+				  {{ form.card_number.label(class = "form-label")}}
+				  {{ form.card_number}}
+				  {% for error in form.card_number.errors %}
+					<li class='error-message'>{{ error }}</li>
+				  {% endfor %}
+				</fieldset>
+		
+				<fieldset class="form-field">
+				  {{ form.expiry_date.label(class = "form-label")}}
+				  {{ form.expiry_date}}
+				  {% for error in form.expiry_date.errors %}
+					<li class='error-message'>{{ error }}</li>
+				  {% endfor %}
+				</fieldset>
+		
+				<fieldset class="form-field">
+				  {{ form.cvv.label(class = "form-label")}}
+				  {{ form.cvv}}
+				  {% for error in form.cvv.errors %}
+					<li class='error-message'>{{ error }}</li>
+				  {% endfor %}
+				</fieldset>
+  
+				<br>
+				<h1>Billing details</h1>
+  
+				<fieldset class="form-field">
+				  {{ form.address_line_1.label(class = "form-label")}}
+				  {{ form.address_line_1}}
+				</fieldset>
+  
+				<fieldset class="form-field">
+				  {{ form.address_line_2.label(class = "form-label")}}
+				  {{ form.address_line_2}}
+				</fieldset>
+  
+				<fieldset class="form-field">
+				  {{ form.city.label(class = "form-label")}}
+				  {{ form.city}}
+				</fieldset>
+  
+				<fieldset class="form-field">
+				  {{ form.postcode.label(class = "form-label")}}
+				  {{ form.postcode}}
+				</fieldset>
+  
+				<fieldset class="form-field">
+				  {{ form.country.label(class = "form-label")}}
+				  {{ form.country}}
+				</fieldset>
+
+			  	<button type="submit" id="paynow" class="btn btn-primary" onclick="hoursSubmit(); locationSubmit();" style="color: white">Confirm Booking</button>
+
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </div>
+  
+	<br></br>
+
+</body>
+
+{% endblock content %}

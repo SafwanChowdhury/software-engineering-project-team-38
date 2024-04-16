@@ -1,0 +1,67 @@
+{% extends "admin_base.html" %}
+{% block content %}
+
+<head>
+    <title>StaffManage</title>
+</head>
+<body>
+    <h1 style="color:rgba(68,73,79,1);">Manage Scooters</h1>
+	<svg class="Line_7" viewBox="0 0 1110 2" preserveAspectRatio="none">
+			<path id="Line_7" d="M 0 0 L 1110 0">
+			</path>
+	</svg>
+	<br></br>
+
+
+	<h2> Options </h2>
+	<a href="/admin/add" class="myButton">Add Scooter</a>
+
+
+	<h2> All Scooters </h2>
+	<table class="table table-striped table-dark">
+		<thead>
+		  <tr>
+			<th scope="col">Scooter ID</th>
+			<th scope="col">Location</th>
+			<th scope="col">In Use</th>
+			<th scope="col">Remove Scooter</th>
+			<th scope="col">Edit Scooter Details</th>
+			
+		  </tr>
+		</thead>
+		<tbody>
+			{% for s in scooters %}
+
+				<tr>
+					<th scope="row">{{ s.id }}</th>
+					<td> {{ locations[s.LocationID] }}</td>
+					<td> {{ s.in_use }} </td>
+					<td> <a href="/admin/remove_scooter/{{s.id}}">remove</a> </td>
+					<td> <a href="/admin/edit_scooter/{{s.id}}">edit scooter</a> </td>
+				</tr>
+
+			{% endfor %}
+		  <!-- <tr>
+			<th scope="row">1</th>
+			<td>Mark</td>
+			<td>Otto</td>
+			<td>@mdo</td>
+		  </tr>
+		  <tr>
+			<th scope="row">2</th>
+			<td>Jacob</td>
+			<td>Thornton</td>
+			<td>@fat</td>
+		  </tr>
+		  <tr>
+			<th scope="row">3</th>
+			<td>Larry</td>
+			<td>the Bird</td>
+			<td>@twitter</td>
+		  </tr> -->
+		</tbody>
+	  </table>
+
+</body>
+
+{% endblock content %}
